@@ -15,5 +15,87 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/referencement-seo",
+      "destination": "/seo/",
+      "permanent": true
+    },
+    {
+      "source": "/referencement-seo.html",
+      "destination": "/seo/",
+      "permanent": true
+    },
+    {
+      "source": "/referencement-local",
+      "destination": "/seo-local/",
+      "permanent": true
+    },
+    {
+      "source": "/referencement-local.html",
+      "destination": "/seo-local/",
+      "permanent": true
+    },
+    {
+      "source": "/consultant-seo-strasbourg",
+      "destination": "/seo-local/",
+      "permanent": true
+    },
+    {
+      "source": "/consultant-seo-strasbourg.html",
+      "destination": "/seo-local/",
+      "permanent": true
+    },
+    {
+      "source": "/audit-seo",
+      "destination": "/seo/",
+      "permanent": true
+    },
+    {
+      "source": "/audit-seo.html",
+      "destination": "/seo/",
+      "permanent": true
+    },
+    {
+      "source": "/creation-site-internet",
+      "destination": "/creation-web/",
+      "permanent": true
+    },
+    {
+      "source": "/creation-site-internet.html",
+      "destination": "/creation-web/",
+      "permanent": true
+    },
+    {
+      "source": "/site-internet-artisan",
+      "destination": "/creation-web/",
+      "permanent": true
+    },
+    {
+      "source": "/site-internet-artisan.html",
+      "destination": "/creation-web/",
+      "permanent": true
+    },
+    {
+      "source": "/developpeur-web-strasbourg",
+      "destination": "/creation-web/",
+      "permanent": true
+    },
+    {
+      "source": "/developpeur-web-strasbourg.html",
+      "destination": "/creation-web/",
+      "permanent": true
+    },
+    {
+      "source": "/combien-coute-site-internet",
+      "destination": "/tarifs/",
+      "permanent": true
+    },
+    {
+      "source": "/combien-coute-site-internet.html",
+      "destination": "/tarifs/",
+      "permanent": true
+    }
   ]
 }
