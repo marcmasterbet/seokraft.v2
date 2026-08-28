@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://www.seokraft.fr/sitemap.xml
