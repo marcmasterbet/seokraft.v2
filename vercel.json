@@ -1,96 +1,19 @@
 {
   "cleanUrls": true,
   "trailingSlash": true,
-  "redirects": [
+  "headers": [
     {
-      "source": "/creation-site-internet.html",
-      "destination": "/creation-web/",
-      "permanent": true
-    },
-    {
-      "source": "/referencement-seo.html",
-      "destination": "/seo/",
-      "permanent": true
-    },
-    {
-      "source": "/referencement-local.html",
-      "destination": "/seo-local/",
-      "permanent": true
-    },
-    {
-      "source": "/geo/index.html",
-      "destination": "/geo/",
-      "permanent": true
-    },
-    {
-      "source": "/blog-seo.html",
-      "destination": "/blog/seo-2026/",
-      "permanent": true
-    },
-    {
-      "source": "/blog-seo-local.html",
-      "destination": "/blog/seo-local/",
-      "permanent": true
-    },
-    {
-      "source": "/blog-geo.html",
-      "destination": "/blog/geo/",
-      "permanent": true
-    },
-    {
-      "source": "/mentions-legales.html",
-      "destination": "/mentions-legales/",
-      "permanent": true
-    },
-    {
-      "source": "/confidentialite.html",
-      "destination": "/confidentialite/",
-      "permanent": true
-    },
-    {
-      "source": "/cgv.html",
-      "destination": "/cgv/",
-      "permanent": true
-    },
-    {
-      "source": "/developpeur-web-strasbourg.html",
-      "destination": "/creation-web/",
-      "permanent": true
-    },
-    {
-      "source": "/consultant-seo-strasbourg.html",
-      "destination": "/seo/",
-      "permanent": true
-    },
-    {
-      "source": "/audit-seo.html",
-      "destination": "/seo/",
-      "permanent": true
-    },
-    {
-      "source": "/creation-site-strasbourg.html",
-      "destination": "/creation-web/",
-      "permanent": true
-    },
-    {
-      "source": "/site-internet-artisan.html",
-      "destination": "/creation-web/",
-      "permanent": true
-    },
-    {
-      "source": "/site-internet-electricien.html",
-      "destination": "/creation-web/",
-      "permanent": true
-    },
-    {
-      "source": "/site-internet-plombier.html",
-      "destination": "/creation-web/",
-      "permanent": true
-    },
-    {
-      "source": "/site-internet-menuisier.html",
-      "destination": "/creation-web/",
-      "permanent": true
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
     }
   ]
 }
